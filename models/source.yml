@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw
+    database: Movielens
+    schema: raw
+    tables:
+      - name: raw_movies
+      - name: raw_links
+
+      - name: raw_rating
