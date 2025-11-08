@@ -1,4 +1,4 @@
-cte with as (
+with raw_movies as (
     select * from MOVIELENS.RAW.raw_movies
 )
 select 
